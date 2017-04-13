@@ -1,0 +1,292 @@
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    height: 64px;
+    position: relative;
+    top: 0;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+#title {
+    display: inline;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    float: left;
+    color: white;
+    margin-top: auto;
+    margin-left: 100px;
+    padding: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+nav>ul {
+    float: right;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.linkA {
+    border-right-style: solid;
+    border-right-color: #4aaaa5;
+    border-right-width: thin;
+    padding-right: 5px;
+    text-decoration: none;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.linkP {
+    border-right-style: solid;
+    border-right-color: #4aaaa5;
+    border-right-width: thin;
+    padding-right: 5px;
+    text-decoration: none;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.linkC {
+    border-right-style: solid;
+    border-right-color: #4aaaa5;
+    border-right-width: thin;
+    padding-right: 5px;
+    text-decoration: none;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    width: 950px;
+    background-image: url('../images/concreteSeamless.png');
+    background-color: #cccccc;
+}
+
+#main {
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: thin;
+}
+
+#connect {
+    position: relative;
+    right: 20px;
+    clear: left;
+    float: right;
+    display: inline;
+    height: 100px;
+    width: 190px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+h3 {
+    position: relative;
+    top: 0;
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #4aaaa5;
+    border-bottom-width: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#mePic {
+    position: relative;
+    float: left;
+    display: inline;
+    height: 150px;
+    width: 150px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#about {
+    position: relative;
+    top: 20px;
+    width: 548px;
+    height: 430px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin-left: 5px;
+    padding-top: 5px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.meP {
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#cnctImg {
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+footer {
+    clear: both;
+    background-color: #666666;
+    text-align: center;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 40px;
+    position: relative;
+    margin-top: 100px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: medium;
+}
+#hang{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    background-image: url('../images/hangman.png');
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: thin;
+}
+#rpg{
+    position: relative;
+    left: 300px;
+    top: -200px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/rpg.png');
+    padding-bottom: 20px;
+}
+#trivia{
+    position: relative;
+    left: 50px;
+    top: -180px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/trivia.png');
+    padding-bottom: 20px;
+}
+#riw{
+    position: relative;
+    left: 300px;
+    top: -400px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/rutgers.jpg');
+    padding-bottom: 20px;
+}
+#rps{
+    position: relative;
+    left: 50px;
+    top: -380px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/rps.jpg');
+    padding-bottom: 20px;
+}
+.port{
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 170px;
+}
+#myPort{
+    position: relative;
+    top: 20px;
+    width: 548px;
+    height: 830px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+#contact{
+    position: relative;
+    top: 20px;
+    width: 548px;
+    height: 540px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
