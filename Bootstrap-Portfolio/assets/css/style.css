@@ -1,0 +1,102 @@
+#about {
+    width: 105%;
+    background-color: #dff0d8;
+    margin-top: -20px;
+    margin-left: -15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+#aboutMe {
+    border-left-style: solid;
+    border-left-color: #dff0d8;
+    border-left-width: 5px;
+    border-right-style: solid;
+    border-right-color: #dff0d8;
+    border-right-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #dff0d8;
+    border-bottom-width: 5px;
+    border-top-style: solid;
+    border-top-color: #dff0d8;
+    border-top-width: 5px;
+    margin-top: 20px;
+}
+
+#port {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#portSect{
+	margin-left: -15px
+}
+
+#portImg {
+    width: 100%;
+    height: auto;
+    border-left-style: solid;
+    border-left-color: #d9edf7;
+    border-left-width: 10px;
+    border-right-style: solid;
+    border-right-color: #d9edf7;
+    border-right-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #d9edf7;
+    border-bottom-width: 10px;
+}
+
+#portItem {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#portHead {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#connect {
+    margin-top: 20px;
+}
+
+#contactHead {
+    width: 105%;
+    background-color: #dff0d8;
+    margin-top: 0px;
+    margin-left: -15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+#contactForm {
+    border-left-style: solid;
+    border-left-color: #dff0d8;
+    border-left-width: 10px;
+    border-right-style: solid;
+    border-right-color: #dff0d8;
+    border-right-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #dff0d8;
+    border-bottom-width: 10px;
+    border-top-style: solid;
+    border-top-color: #dff0d8;
+    border-top-width: 10px;
+}
+
+#button {
+    margin-bottom: 10px;
+}
+
+#name {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#foot {
+    margin-left: -15px;
+}
