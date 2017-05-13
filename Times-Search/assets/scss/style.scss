@@ -1,0 +1,59 @@
+
+@import 'reset/reset';
+
+body {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+header {
+	width: 100%;
+	background: #20315A;
+	color: #fff;
+
+	h1 {
+		text-align: center;
+		font-size: 3.1em;
+		padding: 20px 0;
+	}
+}
+
+.panel-primary {
+	border: 1px solid #2c3e50;
+	border-radius: 4px;
+	width: 65%;
+	margin: 30px auto;
+
+	h2 {
+		background: #2c3e50;
+		color: #fff;
+		padding: 10px 0;
+		font-weight: bold;
+	}
+
+	.push-top {
+		padding-top: 20px;
+	}
+}
+
+.form-group {
+	margin: 0 auto;
+	width: 90%;
+
+	&:last-child {
+		padding: 20px;
+	}
+
+	&:first-child {
+		padding: 20px;
+	}
+
+	input {
+		width: 100%;
+		border: 1px solid #dce4ec;
+		border-radius: 4px;
+		margin: 10px 0;
+		height: 45px;
+		font-size: 15px;
+		padding: 0 10px;
+	}
+}
