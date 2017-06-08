@@ -1,5 +1,6 @@
 $(document).ready(function() {
-
+  
+    $('[data-toggle="tooltip"]').tooltip();
     $('.dropdown-button').dropdown();
     $('.modal').modal();
 
@@ -101,6 +102,9 @@ $(document).ready(function() {
             database.ref().push({
                 Ingredient: ingredientArray
             });
+            if(response.count==0){
+                $("#recipeCards").append("<div id='na'>" + "Nothing Found :( Please try specifying/limiting your search" + "</div>" );
+            }
         });
         console.log(queryURLR);
     });
