@@ -2,7 +2,9 @@ $(document).ready(function() {
   
     $('[data-toggle="tooltip"]').tooltip();
     $('.dropdown-button').dropdown();
-    $('.modal').modal();
+
+     $('.modal').modal();
+      $('.tooltipped').tooltip({delay: 50});
 
 
     // Initialize Firebase
