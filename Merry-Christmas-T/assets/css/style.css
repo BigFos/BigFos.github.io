@@ -1,0 +1,16 @@
+#christmas {
+    background-image: url("../images/6750.png") !important;
+}
+#merry {
+    color: white;
+}
+body{
+    background-image: url("../images/preview.png");
+}
+.blue{
+    color: darkblue;
+}
+#aq{
+    font-weight: bold;
+    font-size: 300%;
+}
